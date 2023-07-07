@@ -13,7 +13,7 @@ function App() {
   const [show, setShow] = useState(false)
   const [showAll, setShowAll] = useState(false)
   return (
-    <div className='w-screen shadow-2xl relative h-screen text-center text-white bg-main flex flex-col font-ubuntu'>
+    <div className='w-screen shadow-2xl h-[100vh] overflow-hidden relative text-center text-white bg-main flex flex-grow flex-col font-ubuntu'>
       <div className='bg-[#007BBE] border-8 border-[#5689FB] h-[300px] mt-[50px] w-[300px] rounded-full mx-auto'>
         <img alt='' src={imgIcon.avatar} className='h-full w-full rounded-full object-scale-down ' />
       </div>
