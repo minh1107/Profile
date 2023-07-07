@@ -24,14 +24,14 @@ function App() {
           <a className='text-link underline hover:text-blueCustom transition duration-300' target='blank' href='https://shorturl.at/auxJQ'>Linkin</a>
         </p>
       </div>
-      <div className='flex flex-wrap justify-around mx-[40px] mt-[40px] rounded-md'>
+      <div className='flex flex-wrap mt-[100px] justify-around mx-[40px] xl:mt-[40px] rounded-md xl:text-[14px] text-[10px]'>
         <Select text={'Information'} imgLink={imgIcon.info} type={'info'} setShow={setShow} setShowAll={setShowAll}/>
         <Select text={'Work experience'} imgLink={imgIcon.experience} type={'exp'} setShow={setShow} setShowAll={setShowAll}/>
         <Select text={'Skills'} imgLink={imgIcon.skill} type={'skill'} setShow={setShow} setShowAll={setShowAll}/>
         <Select text={'Project'} imgLink={imgIcon.product} type={'project'} setShow={setShow} setShowAll={setShowAll}/>
         <Select text={'More'} imgLink={imgIcon.more} type={'more'} setShow={setShow} setShowAll={setShowAll}/>
       </div>
-      {showAll && <div className='absolute xl:top-[30%] top-[20%] left-[50%] animate-moveUp xl:h-[400px] h-[300px] xl:w-[1000px] w-[800px] '>
+      {showAll && <div className='absolute xl:top-[30%] xl: top-[20%] left-[50%] animate-moveUp xl:h-[400px] h-[300px] xl:w-[1000px] w-[100%] '>
         {show === 'info' && <Info />}
         {show === 'exp' && <Exp />}
         {show === 'more' && <More />}
