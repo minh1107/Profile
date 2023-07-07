@@ -24,7 +24,7 @@ function App() {
           <a className='text-link underline hover:text-blueCustom transition duration-300' target='blank' href='https://shorturl.at/auxJQ'>Linkin</a>
         </p>
       </div>
-      <div className='flex flex-wrap justify-around mx-[40px] mt-[40px] rounded-md'>
+      <div className='flex justify-around mx-[40px] mt-[40px] rounded-md'>
         <Select text={'Information'} imgLink={imgIcon.info} type={'info'} setShow={setShow} setShowAll={setShowAll}/>
         <Select text={'Work experience'} imgLink={imgIcon.experience} type={'exp'} setShow={setShow} setShowAll={setShowAll}/>
         <Select text={'Skills'} imgLink={imgIcon.skill} type={'skill'} setShow={setShow} setShowAll={setShowAll}/>

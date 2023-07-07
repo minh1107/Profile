@@ -4,7 +4,7 @@ import {BsFillPersonVcardFill, BsInfoSquareFill} from 'react-icons/bs'
 const Info = () => {
   return (
     <div className='flex rounded-xl bg-[#179DD9] shadow-2xl border-2 border-[#ccc] text-white gap-[20px] py-[20px] px-[40px] text-left transition duration-500 ease-out'>
-      <div className='w-[670px] flex flex-col gap-[10px]'>
+      <div className='w-[650px] flex flex-col gap-[10px]'>
         <h1 className='font-bold text-[20px] gap-[5px] items-center flex'><BsInfoSquareFill color='white'/>General information</h1>
         <ul className='list-disc'>
           <li>3 months internship at a Metric</li>
@@ -20,7 +20,7 @@ const Info = () => {
         </ul>
       </div>
       <div className='flex flex-col gap-[10px]'>
-        <h1 className='font-bold text-[20px] gap-[5px] items-center flex'><BsFillPersonVcardFill color='#179DD9' />Contract information</h1>
+        <h1 className='font-bold text-[20px] gap-[5px] items-center flex'><BsFillPersonVcardFill color='white' />Contract information</h1>
         <div>
           <h1 className='font-bold'>Name</h1>
           <p>Nguyễn Quang Minh</p>
